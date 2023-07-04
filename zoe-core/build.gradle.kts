@@ -31,11 +31,11 @@ dependencies {
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.11.0")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
-    implementation("io.confluent:kafka-avro-serializer:5.5.0")
+    implementation("io.confluent:kafka-avro-serializer:7.4.0")
 
     implementation("org.slf4j:slf4j-log4j12:1.7.30")
     implementation("log4j:log4j:1.2.17")
-    implementation("org.apache.kafka:kafka-clients:5.3.1-ce")
+    implementation("org.apache.kafka:kafka-clients:3.5.0")
     implementation("org.apache.avro:avro-compiler:1.9.2")
     implementation("com.google.guava:guava:29.0-jre")
 
